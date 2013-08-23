@@ -1,0 +1,8 @@
+How to use it
+-------------
+    a) Define some unique keys (MD5, SHA1 etc.)
+    b) Define actions (check out icmpKNOCK_actions.py)
+    c) run icmpKNOCK.py as root!!! otherwise you won't be able to listen
+       for incoming ICMP requests
+    d) Using your ping utility you can pass hex patterns to the requests:
+       $ ping -p [hex pattern] [host]

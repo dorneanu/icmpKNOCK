@@ -1,0 +1,10 @@
+-- 0.2
+    * New configuration mechanism
+    * Added actions file (conf/actions.conf, modules/ActionsReader)
+    * Added global configuration file (conf/icmpKNOCK.conf, modules/ConfReader)
+    * New package structure (modules/, conf/, scripts/)
+    * Added debug messages
+    * Added new commandline parameters 
+
+-- 0.1
+    * First release
